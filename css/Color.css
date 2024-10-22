@@ -1,0 +1,65 @@
+.Hexa {
+    padding: 100px;
+    background-color: #ff00ff;
+    color: #000;
+}
+
+.Okta {
+    padding: 100px;
+    background-color: rgb(255, 99, 71);
+    color: #ffffff;
+    
+}
+
+.Penta {
+    padding: 100px;
+    background-color: rgba(255, 99, 71, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+.Block {
+    padding: 100px;
+    background-color: hsl(120, 20%, 50%);
+    color: rgb(000, 000, 000);
+}
+
+.Threeg {
+    padding: 100px;
+    background-color: hsla(120, 20%, 50%, 0.7);
+    color: rgb(000, 000, 000);
+}
+
+.Oval {
+    padding: 100px;
+    background: rgb(255,192,0);
+    background: linear-gradient(90deg, rgba(255,192,0,1) 0%, rgba(121,93,9,1) 49%, rgba(2,0,36,1) 100%);
+    color: #ffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Circel {
+    padding: 100px;
+    background: rgb(82,34,88);
+background: linear-gradient(90deg, rgba(82,34,88,1) 0%, rgba(140,48,97,1) 32%, rgba(198,60,81,1) 59%, rgba(217,95,89,1) 91%);
+    color: #ffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* body {
+    background-image: url(ntahlah.jpg);
+    background-repeat: no-repeat;s
+    width: 100px;
+    height: autos; 
+}   */
+
+.nonagon {
+    padding: 300px;
+    border: 5px solid #000;
+    background-image: url(ntahlah.jpg);
+    background-size:auto;
+    background-position: center;
+    bac
+    
+    
+    
+}

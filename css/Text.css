@@ -1,0 +1,110 @@
+.Text-left {
+    text-align: left;
+}
+
+.Text-right {
+    text-align: right;
+}
+
+.Text-center {
+    text-align: center;
+}
+
+.Text-justify {
+    text-align: justify;
+}
+
+.T-End {
+    text-align: end;
+}
+
+.T-Start {
+    text-align: start;
+}
+
+body {
+    direction: rtl;
+}
+
+.Deleted {
+    text-decoration: none;
+}
+
+.Upperline {
+    text-decoration: overline wavy green;
+}
+
+.Underline {
+    text-decoration: underline dashed blue;
+}
+
+.Strike {
+    text-decoration: line-through red;
+}
+
+.capitalize {
+    text-transform: capitalize;
+    font-size: 30px;
+    
+}
+
+.upper {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.lower {
+    text-transform: lowercase;
+    font-size: 30px;
+}
+
+.small {
+    font-size: 14;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: cadetblue;
+    color: aquamarine;
+    padding: 100px;
+}
+
+.L-height {
+    line-height: 1.6;
+    background-color: darkblue;
+    color: cornflowerblue;
+    padding: 100px;
+}
+
+.indent {
+    text-indent: 2em;
+    background-color: lightcoral;
+    color: bisque;
+    padding: 100px;
+}
+
+.nowarp {
+    white-space: nowrap;
+    background-color: darkgreen;
+    color: cadetblue;
+    padding: 100px;
+}
+
+.wordspacing {
+    word-spacing: 4px;
+    letter-spacing: 14px;
+    background-color: black;
+    color: azure;
+    padding: 100px;
+}
+
+.overflow {
+    width: 1000px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textshadow {
+    color: burlywood;
+    text-shadow: 3px 5px 6px rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+}

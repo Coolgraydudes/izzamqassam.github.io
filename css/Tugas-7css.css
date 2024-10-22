@@ -1,0 +1,28 @@
+#Header1 {
+    background: darkblue;
+    padding: 25px;
+    color: azure;
+}
+
+img {
+    padding: 25px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3{
+    color: rgb(4, 5, 5);
+}
+
+.kontak {
+    color: rgb(29, 29, 29);
+    background: lightgray;
+    padding: 20px;
+
+}
+
+a,h3:hover {
+    color: rgb(227, 76, 76);
+}

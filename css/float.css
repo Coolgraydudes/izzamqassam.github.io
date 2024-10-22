@@ -1,0 +1,108 @@
+.float-r {
+    float: right;
+    width: 150px;
+}
+
+.float-l {
+    float: left;
+    width: 150px;
+}
+
+.clear-b {
+    clear: both;
+    width: 250px;
+}
+
+.clearfix ::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.element1 {
+    float: right;
+    width: 250px;
+    height: 250px;
+    background-color: darkblue;
+    color: cornflowerblue;
+}
+
+.element2 {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: cornflowerblue;
+    color: darkblue;
+} 
+
+ul.navigasi {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.navigasi li {
+    float: left;
+}
+
+ul.navigasi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigasi li a:hover {
+    background-color: #111;
+}
+
+.kontener {
+    width: 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+    height: 100vh;
+    background-color: darkblue;
+}
+
+.konten {
+    float: right;
+    width: 75%;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+.clearfix2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul.navigasi2 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: darkblue;
+}
+
+ul.navigasi2 li {
+    float: none;
+}
+
+ul.navigasi2 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigasi2 li a:hover {
+    background-color: rgb(21, 21, 210);
+}

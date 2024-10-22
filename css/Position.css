@@ -1,0 +1,101 @@
+/* Static */
+.kontener {
+    background-color: lightgreen;
+    width: 600px;
+    height: 150px;
+    z-index: 9999;
+    position: static;
+}
+
+.yellowboxes {
+    display: inline-block;
+    margin: 10px;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+/* Relative */
+.inline-block {
+     background-color: blue;
+     width: 100px;
+     height: 100px;
+     margin: 4px;
+     display: inline-block;
+     border-radius: 10px;
+}
+
+.relative {
+    position: relative;
+    top: 40px;
+}
+
+/* Fixed */
+.test {
+    width: 500px;
+    margin-top: 50px;
+}
+
+.fixed {
+    position: fixed;
+    top: 390px;
+    width: 300px;
+    padding: 10px 20px;
+    background-color: greenyellow;
+} 
+
+/* Absulote */
+.small-s {
+    position: absolute;
+    right: 0;
+    height: 80px;
+    width: 80px;
+    background-color: yellow;
+}
+
+.medium-s {
+    height: 200px;
+    width: 300px;
+    background-color: red;
+}
+
+.big-s {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: deepskyblue;
+}
+
+
+/* Sticky */
+.sticky {
+    margin-top: 60%;
+    position: sticky;
+    top: 30px;
+    padding: 5px;
+    background-color: yellow;
+    border: 2px solid blue;
+}
+
+.konten {
+    height: 100vh;
+    width: 500px;
+}
+
+/* tumpang tindih (z-index) */
+.z-index {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+    background-color: red;
+}
+
+.latihan {
+    position: fixed;
+    bottom: 0px;
+    width: 300px;
+    padding: 10px 20px;
+    background-color: rgb(93, 93, 93);
+
+}

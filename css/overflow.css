@@ -1,0 +1,84 @@
+/* Ov.visible */
+.visible {
+    background-color: #ff00ff;
+    width: 200px;
+    height: 25px;
+    overflow: visible;
+    padding: 20px;
+}
+
+/* Ov.hidden */
+.hidden {
+    margin-top: 50px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 30px;
+    overflow: hidden;
+}   
+
+/* Ov.scroll */
+.scroll {
+    margin-top: 50px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 80px;
+    overflow: scroll;
+}
+
+/* Ov.auto */
+.auto {
+    margin-top: 50px;
+    background-color: blueviolet;
+    width: 200px;
+    height: 80px;
+    overflow: auto;
+}
+
+
+/* X-Y */
+
+.xy {
+    background-color: coral;
+    width: 100px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.visiblepart2 {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+}
+
+.hiddenpart2 {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.h2h {
+    padding-top: 50px;
+}
+
+.scrollpart2 {
+    background-color :  coral;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+
+
+.autopart2 {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: auto;
+}

@@ -1,0 +1,111 @@
+/* Display Inline */
+.dinline {
+    color: red;
+}
+/* Siplay Block */
+.dblock {
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.subheading {
+    padding-left: 30px;
+}
+
+span {
+    padding: 10px;
+    display: block;
+}
+
+
+/* InlineBlock display */
+#block1 {
+    display: inline-block;
+    background-color: peachpuff;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+
+#block2 {
+    display: inline-block;
+    background-color: peachpuff;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+
+
+.subblock2 {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: aquamarine;
+    display: block;
+}
+
+.subblock3 {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+    display: block;
+}
+
+.subblock22 {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: aquamarine;
+    display: inline;
+}
+
+.subblock33 {
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    background-color: aqua;
+    display: inline;
+}
+
+/* Display None */
+.none {
+    display: none;
+    padding: 20px;
+    margin: 20px;
+    background-color: cornflowerblue;
+}
+
+.none2 {
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    background-color: coral;
+}
+
+/* Visibility */
+
+#boxhidden {
+    visibility: hidden;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10;
+    background-color: red;
+}
+
+#boxnone {
+    visibility: hidden;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10;
+    background-color: blue;
+}

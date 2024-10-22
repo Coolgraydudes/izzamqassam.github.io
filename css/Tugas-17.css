@@ -1,0 +1,158 @@
+.head {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%);
+    color: white;
+    text-shadow: 0 0 0px #000000, 0 0 5px #000000;
+    padding: 30px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.main {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+
+}
+
+/* ol */
+ol {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+}
+
+.ol li {
+    padding: 18px;   
+}
+
+.ol h3 {
+    text-align: center;
+}
+
+.ol {
+    margin: 20px;
+    border-radius: 10px;
+    border-bottom: 10px solid coral;
+    border-top: 10px solid coral;
+    background-color: white;
+    width: 270px;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+}
+
+.judul1 {
+    background-color: coral;
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+
+.oli :nth-child(2) {
+    background-color: gainsboro;
+}
+
+.oli :nth-child(4) {
+    background-color: gainsboro;
+}
+
+.oli :nth-child(6) {
+    background-color: gainsboro;
+}
+
+/* ul */
+
+.ul {
+    margin: 20px;
+    border-radius: 10px;
+    border-bottom: 10px solid rgb(255, 210, 61);
+    border-top: 10px solid rgb(255, 210, 61);
+    background-color: white;
+    width: 270px;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+}
+
+.judul2 {
+    background-color: rgb(255, 210, 61);
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+
+.bagian1 li{
+    padding: 15px;
+    list-style-type: square;
+}
+
+.bagian2 li{
+    padding: 15px;
+    list-style-type: circle;
+    background-color: gainsboro;
+}
+
+.bagian3 li{
+    padding: 15px;
+}
+
+.bagian2 :nth-child(1) {
+    border-top: 1px solid rgb(255, 210, 61);
+}
+
+.bagian2 :nth-child(2) {
+    border-bottom: 1px solid rgb(255, 210, 61);
+}
+
+/* DL */
+
+dl {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+}
+
+.dl dd {
+    padding: 5px;
+    margin-left: 0;
+    color: red;
+}
+
+.dl dt {
+    padding: 10px;   
+}
+
+.dl h3 {
+    text-align: center;
+}
+
+.dl {
+    margin: 20px;
+    border-radius: 10px;
+    border-bottom: 10px solid lightskyblue;
+    border-top: 10px solid lightskyblue;
+    background-color: white;
+    width: 270px;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+}
+
+.judul3 {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+
+.dli {
+    margin: 20px;
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+}

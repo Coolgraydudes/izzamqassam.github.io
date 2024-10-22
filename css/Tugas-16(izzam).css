@@ -1,0 +1,48 @@
+.menu-checkbox:checked ~ .menu {
+    display: block;
+    visibility: visible;
+}
+
+.menu {
+    visibility: hidden;
+    width: 100px;
+    height: 50px;
+}
+
+.menu-checkbox {
+    appearance: none;
+
+}
+
+
+ul {    
+    list-style-type: none;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    width: 150px;   
+    border-radius: 20px;
+}
+
+.menu-icon {
+    background-color: black;
+    color: white;
+    width: 80px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    width: 50px;
+}
+
+a:hover {
+    background-color: rgb(112, 112, 112);
+}
+
+li {
+    padding: 10px;
+
+}

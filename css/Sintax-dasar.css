@@ -1,0 +1,60 @@
+/*Ini adalah judul*/
+h1,h2,h3,h4,h5,h6  {
+    color: rgb(113, 154, 154);*/
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Ini adalah kontainer parent*/
+.bg-yellow {
+    background-color: rgb(46, 105, 107);
+    padding: 100px;
+}
+/*Ini adalaha kontainer header*/
+#header {
+    background: rgb(81, 150, 151);
+}
+/*ini adalah komponen input*/
+input[type="text"] {
+    background: rgb(207, 250, 255);
+}
+
+p,div {
+    color: cornflowerblue;
+}
+
+.pink {
+    color: black;
+    background: pink;
+    padding: 10px;
+}
+
+.text {
+    color: darkblue;
+}
+
+.bg-2 {
+    background: cornflowerblue;
+}
+
+#qwerty {
+    background: teal;
+    color: white;
+    height: 100px;
+    padding: 50px;
+}
+
+.qwertyuiop {
+    color:whitesmoke;
+}
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+a:hover {
+    color: forestgreen;
+}
+.text-panjang::first-line {
+    color: darkseagreen;
+}
+

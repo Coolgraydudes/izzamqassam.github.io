@@ -1,0 +1,58 @@
+header {
+    border: 5px dotted black;
+    
+}
+
+.Bottom {
+    /* border-bottom: 2px solid burlywood;
+    border-right: 2px solid burlywood; */
+
+    /* top left bottom right */
+    border-width: 8px 2px 8px 2px;
+    border-style: solid;
+    border-color: blanchedalmond;
+}
+
+.broder {
+    border-top: 10px solid steelblue;
+    border-bottom: 10px solid steelblue;
+    border-left: 10px solid steelblue;
+    border-right: 10px solid steelblue;
+    padding: 10px;
+}
+
+.dashed {
+    border: 5px dashed orangered;
+    padding: 10px;
+}
+
+.double {
+    border: 15px;
+    border-color: teal;
+    border-style: double;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+.rounded {
+    background-color: darkblue;
+    color: cornflowerblue;
+    padding: 16px;
+    border-radius: 16px;
+    /* border: 16px solid blue; */
+    width: 250px;
+    height: 250px;
+}
+
+.img {
+   width: 400px;
+   height: 200px;
+   border: 10px solid transparent;
+   border-image-source: url(/pengenalan_html/Gambar/border-new.png);
+   border-image-slice: 150;
+   border-image-width: 30px;
+   border-image-outset: 0;
+   border-image-repeat: stretch;
+   
+}
+

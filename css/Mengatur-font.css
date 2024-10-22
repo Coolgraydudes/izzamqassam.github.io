@@ -1,0 +1,93 @@
+.heading {
+    font-size: 24px;
+    color: slateblue;
+}
+
+.font-big {
+    font-size: x-large;
+}
+
+.font-small {
+    font-size: small;
+}
+
+.lighter {
+    font-weight: lighter 500px;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+.font100 {
+    font-weight: 100;
+}
+
+.font200 {
+    font-weight: 200;
+}
+
+.font300 {
+    font-weight: 300;
+}
+
+.font400 {
+    font-weight: 400;
+}
+
+.font500 {
+    font-weight: 500;
+}
+
+.font600 {
+    font-weight: 600;
+}
+
+.font700 {
+    font-weight: 700;
+}
+
+.font800 {
+    font-weight: 800;
+}
+
+.font900 {
+    font-weight: 900;
+}
+
+#typefont {
+    font-size: 50px;
+    color: slateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique
+}
+
+blockquote {
+    font-style: italic;
+    font-size: larger;
+    color: dodgerblue;
+}
+
+cite {
+    font-size: 30px;
+    font-style: normal;
+    color: fuchsia;
+    text-decoration: underline;
+}
+
+
+.font-google {
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+  }
+  

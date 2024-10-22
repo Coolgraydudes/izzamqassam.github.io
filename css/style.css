@@ -1,0 +1,522 @@
+/* Navigasi */
+.navigasi{
+    list-style:none;
+    text-align:center;
+    padding: 12px;
+    margin: 0;
+    width: 95.5vw;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    position: sticky;
+    top: 5px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li {
+    margin: 0 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #7e4ad4;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav li a:hover {
+    background-color: #e9dffa;
+    border-radius: 10px;
+
+}
+
+.button {
+    height: 40px;
+    margin: 15px;
+    border: 2px solid  #7e4ad4;
+    color: #7e4ad4;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #7e4ad4;
+    color: white;
+}
+
+
+/* Hero banner */
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    background: #e5d5ff;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+
+.img1 {
+    margin-right: 50px;
+    height: auto;
+}
+
+.isi {
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.berwarna {
+    color: #7e4ad4;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.button2 {
+    height: 40px;
+    border: 2px solid  #7e4ad4;
+    color: white;
+    background-color: #7e4ad4;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.button2:hover {
+    background-color: white;
+    color: #7e4ad4;
+}
+
+/* sKILL     */
+
+.myskill {
+    margin: 70px 50px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+.myskill h1 {
+    margin-top: 0;
+}
+
+.myskill p {
+    margin-bottom: 0;   
+}
+
+
+.img2 {
+    width: 50px;
+}
+
+.skill1 {
+    background-color: #e5d5ff;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    border-bottom: 5px solid  #e5d5ff;
+}
+
+
+.Paragrafskill h3 {
+    margin-bottom: 0;
+}
+
+.Paragrafskill p {
+    margin-top: 5px ;
+}
+
+.img2   {
+    width: fit-content;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #c4a5f5;
+    padding: 10px;
+}
+
+.allskill {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+}
+
+.skill1:hover {
+    border-bottom: 5px solid  #7e4ad4;
+}
+
+/* About me */
+.About {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    border-radius: 20px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+
+}
+
+.img3 {
+    height: auto;
+}
+
+.isi2 {
+    width: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold2 {
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.berwarna2 {
+    color: #7e4ad4;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+/* My portofolio */
+.portofolio {
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.kosong {
+    width: 55%;
+}
+
+.judulportofolio {
+    width: 30%;
+}
+
+.judulportofolio h1 {
+    margin-top: 0;
+    width: 100%;
+}
+
+.judulportofolio p {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.drible {
+    width: 150px;
+    padding: 5px;
+    background-color: #e62872;
+    text-align: center;
+    border-radius: 20px;
+    white-space: nowrap;
+}
+
+.drible img {
+    margin-top: 20px;
+    width: 15px;
+    height: auto;
+}
+
+.drible a {
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.drible:hover {
+    background-color: #d50555   ;
+}
+
+.myproject {
+    background-color: white;
+    width: 350px;
+    margin: 35px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 0px 5px 6px 3px rgba(0,0,0,0.12);
+}
+
+
+.imgproject img {
+    width: 350px;   
+    border-radius: 10px;
+}
+
+.judulproject {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subproject {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dribleproject {
+    width: fit-content;
+    text-align: center;
+    white-space: nowrap;
+    border-bottom: 2px solid #7e4ad4;
+    margin: 10px;
+
+}
+
+.dribleproject img {
+    margin-top: 20px;
+    width: 15px;
+    height: auto;
+}
+
+.dribleproject a {
+    padding-top: 15px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+
+}
+
+.allproject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+}
+
+/* Contact me */
+.contacthead {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputdata {
+    margin: 0 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input1 input {
+    width: 300px;
+    height: 35px;
+    margin-top: 0;
+    border: 1px solid  #7e4ad4;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.input1 p {
+    margin-bottom: 0;
+}
+
+.input2 input {
+    width: 300px;
+    height: 35px;
+    margin-top: 0;
+    border: 1px solid  #7e4ad4;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.input2 p {
+    margin-bottom: 0;
+}
+
+.input1 {
+    margin: 10px;
+}
+
+.input2 {
+    margin: 10px;
+}
+
+.inputpanjang {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.choose select {
+    width: 635px;
+    margin-top: 0;
+    height: 40px;
+    border: 1px solid  #7e4ad4;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.choose p {
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textarea {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.message textarea{
+    width: 635px;
+    height: 120px;
+    margin-top: 0;
+    border: 1px solid  #7e4ad4;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.message p {
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.checkbox label {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.void {
+    width: 504px;
+}
+
+.send {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.send button {
+    width: 100px;
+    height: 45px;
+    color: white;
+    background-color: #7e4ad4;
+    border: solid  2px #7e4ad4;
+    border-radius: 10px;
+}
+
+.send button:hover {
+    background-color: white;
+    color: #7e4ad4;
+}
+
+.allinput {
+    margin-bottom: 70px;
+}
+
+/* Footer */
+
+.footer {
+    width: 97.5vw;
+    height: auto;
+    background-color: #c4a5f5;
+    border-radius: 20px;
+}
+
+.dalamfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+} 
+
+.navfooter {
+    display: flex;
+    flex-direction: row;
+}
+
+.navfooter li {
+    list-style: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navfooter a {
+    text-decoration: none;
+    color: white;
+}
+
+.bawahfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.navfooterbawah {
+    display: flex;
+    flex-direction: row;
+}
+
+.navfooterbawah li {
+    list-style: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navfooterbawah a {
+    text-decoration: none;
+    color: white;
+}
+
+.bawahfooter p {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+
+.iconfooter img {
+ margin: 20px 1px 10px;
+
+}
+
+

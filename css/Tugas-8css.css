@@ -1,0 +1,17 @@
+.Roti1{
+    padding: 50px;
+    background: rgb(195,140,62);
+    background: linear-gradient(0deg, rgba(195,140,62,1) 6%, rgba(163,121,31,1) 40%, rgba(77,48,7,1) 96%);
+    border-radius: 20px;
+}
+
+.Roti2{
+    padding: 50px;
+    background: rgb(90,255,214);
+    background: linear-gradient(0deg, rgba(90,255,214,1) 5%, rgba(35,51,136,1) 49%, rgba(5,8,62,1) 100%);
+    border-radius: 20px;
+}
+
+img {
+    border: 5px solid white;
+}
